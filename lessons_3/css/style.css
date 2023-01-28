@@ -1,35 +1,35 @@
 @import url(reset.css);
-.info {
-   color: red;
-}
-.business .business__list{
-   color: blue;
-}
-h2 {
-   color: green;
-}
-#p_5 {
-   color: blueviolet;
-}
-ul .link {
-   color: dodgerblue;
-}
-div.modern {
+h1 {
    color: brown;
 }
-ul.list {
-   color: pink;
+.p-1930 {
+   color: blue;
 }
-div.zmist__list {
-   color: orangered;
+#p_2 {
+   color: blueviolet;
 }
-ul.history__list >li >ul {
-   color: darkblue;
+div.p-1950 {
+   color: cadetblue;
 }
-.link {
-   color: deepskyblue;
+.history.text {
+   color: chocolate;
 }
-.p-1950,
+.p-1960,
 .p-1980 {
-   color: goldenrod;
+   color: crimson;
+}
+.p-1970 p {
+   color: darkgoldenrod;
+}
+.business .list {
+   color: darkorange;
+}
+.p-2020 * {
+   color: aquamarine;
+}
+.history.list > li {
+   color: deeppink;
+}
+.text + p {
+   color: chartreuse;
 }
