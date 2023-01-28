@@ -1,0 +1,35 @@
+@import url(reset.css);
+.info {
+   color: red;
+}
+.business .business__list{
+   color: blue;
+}
+h2 {
+   color: green;
+}
+#p_5 {
+   color: blueviolet;
+}
+ul .link {
+   color: dodgerblue;
+}
+div.modern {
+   color: brown;
+}
+ul.list {
+   color: pink;
+}
+div.zmist__list {
+   color: orangered;
+}
+ul.history__list >li >ul {
+   color: darkblue;
+}
+.link {
+   color: deepskyblue;
+}
+.p-1950,
+.p-1980 {
+   color: goldenrod;
+}
