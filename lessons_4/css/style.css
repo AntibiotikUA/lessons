@@ -1,0 +1,73 @@
+@import url(reset.css);
+/*@import url('https://fonts.googleapis.com/css2?family=Tomorrow:wght@300;500;700&display=swap');
+body {
+   font-family: 'Tomorrow', sans-serif;
+}*/
+@font-face {
+   font-family: 'AdonisC';
+   src: url('../fonts/AdonisC-Bold.woff2') format('woff2'),
+       url('../fonts/AdonisC-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Cera Stencil PRO Trial';
+   src: url('../fonts/CeraStencilPROTrial-Medium.woff2') format('woff2'),
+       url('../fonts/CeraStencilPROTrial-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Monotype.com';
+   src: url('../fonts/Monotypecom.woff2') format('woff2'),
+       url('../fonts/Monotypecom.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+/*body {
+   font-family:'Cera Stencil PRO Trial';
+} */
+h1 {
+   font-family: 'Monotype.com';
+   font-weight: 900;
+   font-size: 30px;
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 2px 2px 2px red;
+}
+.text.one {
+   font-family: 'Monotype.com';
+   font-weight: 600;
+   font-size: 20px;
+   font-style: normal;
+}
+.text.two {
+   font-family:'AdonisC';
+   color: rgb(165, 42, 42);
+   text-align: justify;
+   text-decoration: underline;
+   text-indent: 20px;
+}
+.list {
+   font-family:'Cera Stencil PRO Trial';
+   color: rgb(44, 47, 53);
+   text-align: justify;
+   text-transform: capitalize;
+}
+div.istoria {
+   line-height: 1.8;
+}
+.atlas {
+   color: rgb(0, 0, 255);
+   letter-spacing: 5px;
+}
+.link {
+   word-spacing: 3px;
+   color: rgb(165, 42, 42);
+   text-shadow: 1px 1px 1px black;
+}
