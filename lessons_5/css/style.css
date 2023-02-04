@@ -1,0 +1,90 @@
+@import url(reset.css);
+
+.title-1 {
+   font-family: 'Poppins';
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 40px;
+   text-align: left;
+   font-style: 400;
+   width: 400px;
+   height: 80px;
+   color: rgb(33, 37, 41);
+   margin: 20px 0px 35px 312px;
+}
+.text {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+   color: #6C757D;
+   width: 816px;
+   height: 450px;
+   margin-left: 312px;
+}
+.sand {
+   
+   width: 1240px;
+   height: 400px;
+   margin-left: 100px;
+   background: url("../img/desert.jpg"), #C4C4C4;
+   margin-bottom: 70px;
+}
+.title-2 {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 40px;
+   color: #212529;
+   width: 605px;
+   height: 120px;
+   /*margin-left: 312px;*/
+   margin: 20px 0px 35px 312px;
+}
+.two {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+   color: #6C757D;
+   width: 816px;
+   height: 325px;
+   margin-left: 312px;
+}
+.boat {
+   background: url("../img/girl\ in\ the\ boat.jpg"), #C4C4C4;
+   width: 605px;
+   height: 400px;
+   margin: 0px 30px 100px 100px;
+}
+.lake {
+   background: url("../img/quiet\ sea\ place.jpg"), #C4C4C4;
+   width: 605px;
+   height: 400px;
+   margin-bottom: 100px;
+}
+.three {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 25px;
+   color: #6C757D;
+   width: 816px;
+   height: 175px;
+   margin-left: 312px;
+}
+.foot {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 200;
+   font-size: 15px;
+   line-height: 20px;
+   color: #6C757D;
+   width: 816px;
+   height: 175px;
+   margin-left: 312px;
+}
