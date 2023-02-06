@@ -3,7 +3,7 @@
 .title-1 {
    font-family: 'Poppins';
    font-size: 25px;
-   font-weight: 500;
+   font-weight: 700;
    line-height: 40px;
    text-align: left;
    font-style: normal;
@@ -46,7 +46,7 @@
    width: 605px;
    /*height: 120px;*/
    /*margin-left: 312px;*/
-   margin: 20px 0px 35px 340px;
+   margin: 20px 0px 35px 0px;
 }
 .two {
    font-family: 'Poppins';
