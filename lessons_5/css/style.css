@@ -3,14 +3,15 @@
 .title-1 {
    font-family: 'Poppins';
    font-size: 25px;
-   font-weight: 700;
+   font-weight: 500;
    line-height: 40px;
    text-align: left;
    font-style: normal;
-   width: 400px;
-   height: 80px;
+   max-width: 400px;
+   /*height: 80px;*/
    color: rgb(33, 37, 41);
-   margin: 20px 0px 35px 312px;
+   margin: 20px 0px 35px 0px;
+   /*margin: 0 auto;*/
 }
 .text {
    font-family: 'Poppins';
@@ -19,17 +20,21 @@
    font-size: 14px;
    line-height: 25px;
    color: #6C757D;
-   width: 816px;
-   height: 450px;
-   margin-left: 312px;
+   max-width: 816px;
+   /*height: 450px;*/
+   /*margin-left: 312px;*/
+   margin: 0 auto;
+}
+.text > p {
+   margin-bottom: 15px;
 }
 .sand {
-   
-   width: 1240px;
+   display: block;
+   max-width: 1240px;
    height: 400px;
-   margin-left: 100px;
-   background: url("../img/desert.jpg"), #C4C4C4;
-   margin-bottom: 70px;
+   /*margin-left: 100px;
+   margin-bottom: 70px;*/
+   margin: 0 auto;
 }
 .title-2 {
    font-family: 'Poppins';
@@ -39,9 +44,9 @@
    line-height: 40px;
    color: #212529;
    width: 605px;
-   height: 120px;
+   /*height: 120px;*/
    /*margin-left: 312px;*/
-   margin: 20px 0px 35px 312px;
+   margin: 20px 0px 35px 340px;
 }
 .two {
    font-family: 'Poppins';
@@ -50,9 +55,13 @@
    font-size: 14px;
    line-height: 25px;
    color: #6C757D;
-   width: 816px;
-   height: 325px;
-   margin-left: 312px;
+   max-width: 816px;
+   /*height: 325px;*/
+   /*margin-left: 312px;*/
+   margin: 0 auto;
+}
+.two > p {
+   margin-bottom: 15px;
 }
 .boat {
    width: 605px;
@@ -71,9 +80,10 @@
    font-size: 14px;
    line-height: 25px;
    color: #6C757D;
-   width: 816px;
-   height: 175px;
-   margin-left: 312px;
+   max-width: 816px;
+   /*height: 175px;*/
+   /*margin-left: 312px;*/
+   margin: 0 auto;
 }
 .foot {
    font-family: 'Poppins';
@@ -82,7 +92,8 @@
    font-size: 15px;
    line-height: 20px;
    color: #6C757D;
-   width: 816px;
-   height: 175px;
-   margin-left: 312px;
+   max-width: 816px;
+   /*height: 175px;*/
+   /*margin-left: 312px;*/
+   margin: 0 auto;
 }
