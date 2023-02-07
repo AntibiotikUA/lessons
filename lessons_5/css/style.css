@@ -63,16 +63,20 @@
 .two > p {
    margin-bottom: 15px;
 }
+div.pictures {
+   font-size: 0;
+   max-width: 1240px;
+   margin: 0 auto;
+   /*margin: 0px 120px 20px 120px;*/
+}
 .boat {
-   width: 605px;
-   height: 400px;
-   margin: 0px 30px 100px 100px;
+   max-width: 100%;
+   margin-right: 30px
 }
 .lake {
-   width: 605px;
-   height: 400px;
-   margin-bottom: 100px;
+   max-width: 100%;
 }
+
 .three {
    font-family: 'Poppins';
    font-style: normal;
