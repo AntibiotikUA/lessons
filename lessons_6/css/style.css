@@ -1,0 +1,116 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body {
+	font-family: "Poppins", sans-serif;
+	color: #6C757D;
+	font-size: 14px;
+	font-weight: 300;
+}
+[class*="__container"] {
+	max-width: 1270px;
+	margin: 0 auto;
+}
+.vence {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.vence__text-block {
+	max-width: 816px;
+	margin: 0 auto;
+}
+.vence__text-block p {
+	line-height: 1.78;
+	margin-bottom: 30px;
+	border: 10px solid #808080;
+	box-shadow: inset 5px 5px 8px #000000;
+}
+.vence__title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+	border: 8px solid #ff0000;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px #000000;
+}
+.vence__image {
+	max-width: 100%;
+	margin-bottom: 80px;
+	outline: 15px double #800080;
+}
+.images {
+	font-size: 0;
+	margin-bottom: 80px;
+}
+.image {
+	max-width: 100%;
+	/*outline: 8px solid rgb(128, 0, 128);*/
+}
+.image_2 {
+	margin-right: 30px;
+	opacity: 0.3;
+}
+.image_3:hover {
+	visibility: hidden;
+} 
+/*дане значення ще не вивчали, але воно було показане у прикладі, тому вирішив спробувати застосувати*/
+.button {
+	font-size: 20px;
+	font-weight: 300;
+	color: #5f9ea0;
+	border: 5px solid #0000ff;
+	border-radius: 15px;
+	box-shadow: inset 5px 5px 5px #000000;
+}
+
+/*CSS властивості для page2.html*/
+[class*="__container-2"] {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.maket__image {
+	max-width: 1440px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+	outline: 3px solid #000000;
+}
+.image_4 {
+	margin-right: 30px;
+	border: 10px solid #0000ff;
+	border-radius: 10px;
+}
+.image_5 {
+	outline: 5px solid #ffc0cb;
+}
+.title {
+	color: #212529;
+	font-size: 25px;
+	line-height: 1.6;
+	margin-bottom: 40px;
+	font-weight: 700;
+	max-width: 605px;
+	outline: 10px double #dda0dd;
+	opacity: 0.4;
+}
+.maket__text-block p {
+		line-height: 1.78;
+		margin-bottom: 30px;
+		border: 15px solid #778899;
+		border-radius: 8px;
+		box-shadow: 10px 10px 15px #000000;
+}
+.maket__text-block {
+	max-width: 816px;
+	margin: 0 auto;
+}
+.button-2 {
+	font-size: 15px;
+	font-weight: 300;
+	color: #ff0000;
+	border:10px solid #0000ff;
+	border-radius: 15px ;
+	box-shadow: 15px 15px 20px #663399;
+}
