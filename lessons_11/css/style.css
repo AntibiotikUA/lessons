@@ -220,7 +220,7 @@ body {
 	vertical-align: top;
 }
 .sub-content__block:not(:last-child) {
-	margin-right: 85px;
+	margin-right: 80px;
 }
 
 .sub-content__title {
@@ -249,4 +249,3 @@ body {
 .sub-content__link:hover {
 	color: #3056d3;
 }
-.sub-content__banner 
