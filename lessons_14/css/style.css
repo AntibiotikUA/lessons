@@ -1,0 +1,86 @@
+@import url("reset.css");
+@import url("common.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700,800&display=swap");
+body {
+	font-family: 'Poppins', sans-serif;
+	
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	padding-top: 20px;
+	display: flex;
+	flex-direction:column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+
+
+.page__container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+
+
+.card  {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 0 0 33.333%;
+	justify-content: space-between;
+}
+
+.card__pic {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+	max-width: 393px;
+	min-height: 100%;
+	column-gap: 15px;
+}
+
+.card__date,
+.card__text,
+.card__author  {
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 20px;
+	color: #495057; 
+	margin-bottom: 15px;
+}
+
+.card__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 40px;
+	color: #212529; 
+}
+.page__button {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+.button {
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 25px;
+	background-color: #212529;
+	color: #f8f9fa;
+	border-radius: 3px;
+	max-width: 178px;
+	max-height: 40px;
+	text-align: center;
+	padding: 5px 49px;
+
+}
+
+
+
+
+
+.footer 
+
+
